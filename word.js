@@ -1,6 +1,8 @@
 // Word.js should only require Letter.js Write Letter.js 2nd and test it on its 
 //own before moving on
 
+var Word = require("./letter")
+
 // Contains a constructor, Word that depends on the Letter constructor. This is used 
 //to create an object representing the current word the user is attempting to guess. 
 //That means the constructor should define:
